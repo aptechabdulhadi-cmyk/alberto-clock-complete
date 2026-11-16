@@ -3,9 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Collections</title>
+    <title>Watch Collections | Alberto Clocks Karachi</title>
+    <meta
+      name="description"
+      content="Explore watch collections at Alberto Clocks, featuring Rolex, Omega, Casio and G-Shock wristwatch styles in Karachi, Pakistan."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link
+      rel="canonical"
+      href="https://aptechabdulhadi-cmyk.github.io/E-project-final-13/collections.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_PK" />
+    <meta property="og:title" content="Watch Collections | Alberto Clocks Karachi" />
+    <meta
+      property="og:description"
+      content="Explore watch collections at Alberto Clocks, featuring Rolex, Omega, Casio and G-Shock wristwatch styles in Karachi, Pakistan."
+    />
+    <meta
+      property="og:url"
+      content="https://aptechabdulhadi-cmyk.github.io/E-project-final-13/collections.html"
+    />
+    <meta
+      property="og:image"
+      content="https://aptechabdulhadi-cmyk.github.io/E-project-final-13/product/rolex1.jpg"
+    />
+    <meta property="og:image:alt" content="Rolex Submariner watch from Alberto Clocks" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Watch Collections | Alberto Clocks Karachi" />
+    <meta
+      name="twitter:description"
+      content="Explore watch collections at Alberto Clocks, featuring Rolex, Omega, Casio and G-Shock wristwatch styles in Karachi, Pakistan."
+    />
+    <meta
+      name="twitter:image"
+      content="https://aptechabdulhadi-cmyk.github.io/E-project-final-13/product/rolex1.jpg"
+    />
 
     <link rel="icon" type="image/x-icon" href="logo.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/#organization",
+            "name": "Alberto Clocks",
+            "url": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/",
+            "logo": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/#website",
+            "url": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/",
+            "name": "Alberto Clocks",
+            "publisher": {
+              "@id": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/#organization"
+            },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/collections.html#webpage",
+            "url": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/collections.html",
+            "name": "Watch Collections | Alberto Clocks Karachi",
+            "description": "Explore watch collections at Alberto Clocks, featuring Rolex, Omega, Casio and G-Shock wristwatch styles in Karachi, Pakistan.",
+            "isPartOf": {
+              "@id": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/#website"
+            },
+            "about": {
+              "@id": "https://aptechabdulhadi-cmyk.github.io/E-project-final-13/#organization"
+            },
+            "inLanguage": "en"
+          }
+        ]
+      }
+    </script>
 
     <!-- font-awesome -->
     <link
@@ -22,11 +95,6 @@
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
-    />
-
-    <link
-      rel="stylesheet"
-      href="alberto_home_with_footer_ticker_visitor_count.html"
     />
 
     <style>
@@ -71,6 +139,20 @@
         margin-top: 28px;
       }
 
+      .section-eyebrow {
+        color: #777;
+        font-family: "Playfair Display", serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        margin: 0 0 15px;
+      }
+
+      .card-title,
+      .modal-title {
+        font-size: 1.25rem;
+      }
+
       .navbar {
         /* background: linear-gradient(135deg, #ccc7b1, #F2F2F2) !important;   */
         /* background: linear-gradient(190deg, #2e3440 , #d8dee9 , #4c566a , #eceff4 , #2e3440);
@@ -95,7 +177,8 @@
         position: fixed !important;
         top: 0;
         left: 0;
-        width: 100%;
+        width: calc(100% - 10px);
+        margin: 5px;
         z-index: 99999 !important;
         padding: 12px clamp(12px, 3vw, 42px);
         border-bottom: 1px solid rgba(179, 176, 171, 0.55) !important;
@@ -298,7 +381,7 @@
         background: transparent;
       }
 
-      .section-title h6 {
+      .section-title .section-eyebrow {
         font-size: 12px;
         letter-spacing: 5px;
         color: #777;
@@ -496,7 +579,7 @@
       }
 
       /* COLUMN HEADINGS */
-      .footer-column h3 {
+      .footer-column h2 {
         font-size: 16px;
         font-weight: 700;
         color: #fff;
@@ -687,7 +770,7 @@
           max-width: 100%;
         }
 
-        .footer-column h3 {
+        .footer-column h2 {
           margin-bottom: 15px;
         }
 
@@ -714,9 +797,9 @@
 
       /* fix FOOTER TO FULL SCREEN WIDTH */
       footer.alberto-footer {
-        width: 100vw !important;
+        width: 100% !important;
         max-width: none !important;
-        margin-left: calc(50% - 50vw) !important;
+        margin-left: 0 !important;
         margin-right: 0 !important;
         position: relative;
         left: 0;
@@ -878,7 +961,7 @@
       <div class="container-fluid">
         <a
           class="navbar-brand d-flex align-items-center"
-          href="newnav_same_navbar.html"
+          href="index.html"
         >
           <img
             src="logo.png"
@@ -886,7 +969,7 @@
             width="80"
             height="40"
             style="object-fit: contain; margin-right: 10px"
-          />
+           loading="eager" decoding="async">
           <span>Alberto Clock's</span>
         </a>
         <button
@@ -948,7 +1031,7 @@
     </nav>
 
     <div class="section-title">
-      <h6>THE ART OF PRECISION</h6>
+      <p class="section-eyebrow">THE ART OF PRECISION</p>
       <h1>Make Every Second <span>Iconic.</span></h1>
       <p>Discover watches that make every moment unforgettable.</p>
     </div>
@@ -965,13 +1048,13 @@
             <img
               src="product/rolex1.jpg"
               class="card-img-top"
-              alt="Cartier 8"
+              alt="Rolex Submariner wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Cartier+8'
               "
-            />
+            width="640" height="960" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex Submariner</h5>
+              <h2 class="card-title">Rolex Submariner</h2>
               <p class="card-text text-muted small">
                 Sophisticated craftsmanship designed for timeless elegance.
               </p>
@@ -996,13 +1079,13 @@
             <img
               src="product/rolex2.jpg"
               class="card-img-top"
-              alt="Cartier 6"
+              alt="Rolex Daytona wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Cartier+6'
               "
-            />
+            width="600" height="800" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex Daytona</h5>
+              <h2 class="card-title">Rolex Daytona</h2>
               <p class="card-text text-muted small">
                 A harmonious blend of modern luxury and vintage charm.
               </p>
@@ -1027,13 +1110,13 @@
             <img
               src="product/rolex3.jpg"
               class="card-img-top"
-              alt="Cartier 5"
+              alt="Rolex Datejust wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Cartier+5'
               "
-            />
+            width="640" height="800" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex Datejust</h5>
+              <h2 class="card-title">Rolex Datejust</h2>
               <p class="card-text text-muted small">
                 Refined details tailored for the distinguished collector.
               </p>
@@ -1058,13 +1141,13 @@
             <img
               src="product/rolex4.jpg"
               class="card-img-top"
-              alt="Cartier 4"
+              alt="Rolex GMT-Master II wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Cartier+4'
               "
-            />
+            width="736" height="736" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex GMT-Master II</h5>
+              <h2 class="card-title">Rolex GMT-Master II</h2>
               <p class="card-text text-muted small">
                 Exceptional quality that speaks volumes of prestige.
               </p>
@@ -1089,13 +1172,13 @@
             <img
               src="product/rolex5.jpg"
               class="card-img-top"
-              alt="Cartier 3"
+              alt="Rolex Oyster Perpetual wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Cartier+3'
               "
-            />
+            width="736" height="736" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex Oyster Perpetual</h5>
+              <h2 class="card-title">Rolex Oyster Perpetual</h2>
               <p class="card-text text-muted small">
                 An iconic statement piece crafted with absolute precision.
               </p>
@@ -1120,13 +1203,13 @@
             <img
               src="product/rolex6.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Rolex Sky-Dweller wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="981" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex Sky-Dweller</h5>
+              <h2 class="card-title">Rolex Sky-Dweller</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1151,13 +1234,13 @@
             <img
               src="product/rolex7.jpg"
               class="card-img-top"
-              alt="Cartier 1"
+              alt="Rolex Milgauss wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prime+I'
               "
-            />
+            width="1200" height="1527" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex Milgauss</h5>
+              <h2 class="card-title">Rolex Milgauss</h2>
               <p class="card-text text-muted small">
                 The pinnacle of luxury design and modern sophistication.
               </p>
@@ -1182,13 +1265,13 @@
             <img
               src="product/rolex8.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Rolex Air-King wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1600" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Rolex Air-King</h5>
+              <h2 class="card-title">Rolex Air-King</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1215,13 +1298,13 @@
             <img
               src="product/omega1.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega Seamaster wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1800" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega Seamaster</h5>
+              <h2 class="card-title">Omega Seamaster</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1245,13 +1328,13 @@
             <img
               src="product/omega2.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega Speedmaster wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="1308" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega Speedmaster</h5>
+              <h2 class="card-title">Omega Speedmaster</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1275,13 +1358,13 @@
             <img
               src="product/omega3.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega Constellation wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="981" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega Constellation</h5>
+              <h2 class="card-title">Omega Constellation</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1305,13 +1388,13 @@
             <img
               src="product/omega4.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega De Ville wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1000" height="1500" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega De Ville</h5>
+              <h2 class="card-title">Omega De Ville</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1335,13 +1418,13 @@
             <img
               src="product/omega5.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega Aqua Terra wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1600" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega Aqua Terra</h5>
+              <h2 class="card-title">Omega Aqua Terra</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1365,13 +1448,13 @@
             <img
               src="product/omega6.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega Moonwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1500" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega MoonWatch</h5>
+              <h2 class="card-title">Omega MoonWatch</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1396,13 +1479,13 @@
             <img
               src="product/omega7.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega Constellation Globemaster wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1799" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega Constellation Globemaster</h5>
+              <h2 class="card-title">Omega Constellation Globemaster</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1427,13 +1510,13 @@
             <img
               src="product/omega8.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Omega Aqua Terra 150M wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1600" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Omega Aqua Terra 150M</h5>
+              <h2 class="card-title">Omega Aqua Terra 150M</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1460,13 +1543,13 @@
             <img
               src="product/g-shock1.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock GA-2100 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="832" height="1114" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">GA-2100</h5>
+              <h2 class="card-title">GA-2100</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1491,13 +1574,13 @@
             <img
               src="product/g-shock2.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock GA-700 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="900" height="1200" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">GA-700</h5>
+              <h2 class="card-title">GA-700</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1521,13 +1604,13 @@
             <img
               src="product/g-shock3.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock GA-100 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="758" height="945" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">GA-100</h5>
+              <h2 class="card-title">GA-100</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1552,13 +1635,13 @@
             <img
               src="product/g-shock4.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock GA-B2100 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1200" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">GA-B2100</h5>
+              <h2 class="card-title">GA-B2100</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1582,13 +1665,13 @@
             <img
               src="product/g-shock5.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock DW-5600 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="981" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">DW-5600</h5>
+              <h2 class="card-title">DW-5600</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1612,13 +1695,13 @@
             <img
               src="product/g-shock6.jpg"
               class="card-img -top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock DW-6900 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1024" height="1024" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">DW-6900</h5>
+              <h2 class="card-title">DW-6900</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1642,13 +1725,13 @@
             <img
               src="product/g-shock7.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock Mudmaster GG-1000 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1080" height="1101" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Mudmaster GG-1000</h5>
+              <h2 class="card-title">Mudmaster GG-1000</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1672,13 +1755,13 @@
             <img
               src="product/g-shock8.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock GA-900 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="2133" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">GA-900</h5>
+              <h2 class="card-title">GA-900</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1703,13 +1786,13 @@
             <img
               src="product/g-shock9.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock GA-SMW wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="1104" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">GA-smw</h5>
+              <h2 class="card-title">GA-smw</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1736,13 +1819,13 @@
             <img
               src="product/casio1.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock GA-2100 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="1308" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio G-Shock GA-2100</h5>
+              <h2 class="card-title">Casio G-Shock GA-2100</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1768,13 +1851,13 @@
             <img
               src="product/casio2.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio F-91W wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="735" height="892" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio F-91W</h5>
+              <h2 class="card-title">Casio F-91W</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1799,13 +1882,13 @@
             <img
               src="product/casio3.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio A168 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1200" height="1600" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio A168</h5>
+              <h2 class="card-title">Casio A168</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1829,13 +1912,13 @@
             <img
               src="product/casio4.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio AE-1200 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="981" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio AE-1200</h5>
+              <h2 class="card-title">Casio AE-1200</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1859,13 +1942,13 @@
             <img
               src="product/casio5.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio Edifice EFV-100 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="959" height="1280" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio Edifice EFV-100</h5>
+              <h2 class="card-title">Casio Edifice EFV-100</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1889,13 +1972,13 @@
             <img
               src="product/casio6.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio MTP-1302 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1179" height="1186" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio MTP-1302</h5>
+              <h2 class="card-title">Casio MTP-1302</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1919,13 +2002,13 @@
             <img
               src="product/casio7.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio G-Shock DW-5600 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="1308" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio G-shock DW-5600</h5>
+              <h2 class="card-title">Casio G-shock DW-5600</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1949,13 +2032,13 @@
             <img
               src="product/casio8.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio Vintage A158 wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="736" height="981" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio Vintage A158</h5>
+              <h2 class="card-title">Casio Vintage A158</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -1979,13 +2062,13 @@
             <img
               src="product/casio9.jpg"
               class="card-img-top"
-              alt="Cartier Prestige"
+              alt="Casio S-M-W wristwatch"
               onerror="
                 this.src = 'https://placehold.co/300x250/eee/333?text=Prestige'
               "
-            />
+            width="1160" height="1240" loading="lazy" decoding="async">
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Casio s-m-w</h5>
+              <h2 class="card-title">Casio s-m-w</h2>
               <p class="card-text text-muted small">
                 Unmatched brilliance reflecting a legacy of excellence.
               </p>
@@ -2013,7 +2096,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex submariner</h5>
+            <h3 class="modal-title">Rolex submariner</h3>
             <button
               type="button"
               class="btn-close"
@@ -2025,12 +2108,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex1.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex Submariner wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="640" height="960" loading="lazy" decoding="async">
             </div>
 
             <p class="text-muted">
@@ -2066,7 +2149,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex Daytona</h5>
+            <h3 class="modal-title">Rolex Daytona</h3>
             <button
               type="button"
               class="btn-close"
@@ -2078,12 +2161,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex2.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex Daytona wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="600" height="800" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               A harmonious blend of modern luxury and vintage charm. Perfect for
@@ -2117,7 +2200,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex Datejust</h5>
+            <h3 class="modal-title">Rolex Datejust</h3>
             <button
               type="button"
               class="btn-close"
@@ -2129,12 +2212,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex3.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex Datejust wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="640" height="800" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               Refined details tailored for the distinguished collector. Built
@@ -2168,7 +2251,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex GMT-MasterII</h5>
+            <h3 class="modal-title">Rolex GMT-MasterII</h3>
             <button
               type="button"
               class="btn-close"
@@ -2180,12 +2263,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex4.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex GMT-Master II wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="736" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               Exceptional quality that speaks volumes of prestige. An absolute
@@ -2219,7 +2302,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex Oyster Perpetual</h5>
+            <h3 class="modal-title">Rolex Oyster Perpetual</h3>
             <button
               type="button"
               class="btn-close"
@@ -2231,12 +2314,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex5.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex Oyster Perpetual wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="736" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               An iconic statement piece crafted with absolute precision and
@@ -2270,7 +2353,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex Sky-Dweller</h5>
+            <h3 class="modal-title">Rolex Sky-Dweller</h3>
             <button
               type="button"
               class="btn-close"
@@ -2282,12 +2365,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex6.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex Sky-Dweller wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="981" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               Unmatched brilliance reflecting a legacy of excellence. Designed
@@ -2321,7 +2404,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex Milgauss</h5>
+            <h3 class="modal-title">Rolex Milgauss</h3>
             <button
               type="button"
               class="btn-close"
@@ -2333,12 +2416,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex7.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex Milgauss wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1527" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2372,7 +2455,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Rolex Air-king</h5>
+            <h3 class="modal-title">Rolex Air-king</h3>
             <button
               type="button"
               class="btn-close"
@@ -2384,12 +2467,12 @@
             <div class="modal-img-container">
               <img
                 src="product/rolex8.jpg"
-                alt="Rolex Submariner"
+                alt="Rolex Air-King wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1600" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2425,7 +2508,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega Seamaster</h5>
+            <h3 class="modal-title">Omega Seamaster</h3>
             <button
               type="button"
               class="btn-close"
@@ -2437,12 +2520,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega1.jpg"
-                alt="Rolex Submariner"
+                alt="Omega Seamaster wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1800" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2476,7 +2559,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega Speed Master</h5>
+            <h3 class="modal-title">Omega Speed Master</h3>
             <button
               type="button"
               class="btn-close"
@@ -2488,12 +2571,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega2.jpg"
-                alt="Rolex Submariner"
+                alt="Omega Speedmaster wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="1308" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2527,7 +2610,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega Constellation</h5>
+            <h3 class="modal-title">Omega Constellation</h3>
             <button
               type="button"
               class="btn-close"
@@ -2539,12 +2622,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega3.jpg"
-                alt="Rolex Submariner"
+                alt="Omega Constellation wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="981" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2578,7 +2661,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega De Ville</h5>
+            <h3 class="modal-title">Omega De Ville</h3>
             <button
               type="button"
               class="btn-close"
@@ -2590,12 +2673,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega4.jpg"
-                alt="Rolex Submariner"
+                alt="Omega De Ville wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1000" height="1500" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2629,7 +2712,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega Aqua Terra</h5>
+            <h3 class="modal-title">Omega Aqua Terra</h3>
             <button
               type="button"
               class="btn-close"
@@ -2641,12 +2724,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega5.jpg"
-                alt="Rolex Submariner"
+                alt="Omega Aqua Terra wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1600" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2680,7 +2763,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega MoonWatch</h5>
+            <h3 class="modal-title">Omega MoonWatch</h3>
             <button
               type="button"
               class="btn-close"
@@ -2692,12 +2775,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega6.jpg"
-                alt="Rolex Submariner"
+                alt="Omega Moonwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1500" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2731,7 +2814,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega Constellation Globemaster</h5>
+            <h3 class="modal-title">Omega Constellation Globemaster</h3>
             <button
               type="button"
               class="btn-close"
@@ -2743,12 +2826,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega7.jpg"
-                alt="Rolex Submariner"
+                alt="Omega Constellation Globemaster wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1799" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2782,7 +2865,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Omega Aqua terra 150M</h5>
+            <h3 class="modal-title">Omega Aqua terra 150M</h3>
             <button
               type="button"
               class="btn-close"
@@ -2794,12 +2877,12 @@
             <div class="modal-img-container">
               <img
                 src="product/omega8.jpg"
-                alt="Rolex Submariner"
+                alt="Omega Aqua Terra 150M wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1600" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2835,7 +2918,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">GA-2100</h5>
+            <h3 class="modal-title">GA-2100</h3>
             <button
               type="button"
               class="btn-close"
@@ -2847,12 +2930,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock1.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock GA-2100 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="832" height="1114" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2886,7 +2969,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">GA-700</h5>
+            <h3 class="modal-title">GA-700</h3>
             <button
               type="button"
               class="btn-close"
@@ -2898,12 +2981,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock2.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock GA-700 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="900" height="1200" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2937,7 +3020,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">GA-100</h5>
+            <h3 class="modal-title">GA-100</h3>
             <button
               type="button"
               class="btn-close"
@@ -2949,12 +3032,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock3.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock GA-100 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="758" height="945" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -2988,7 +3071,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">GA-B2100</h5>
+            <h3 class="modal-title">GA-B2100</h3>
             <button
               type="button"
               class="btn-close"
@@ -3000,12 +3083,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock4.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock GA-B2100 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1200" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3039,7 +3122,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">DW-5600</h5>
+            <h3 class="modal-title">DW-5600</h3>
             <button
               type="button"
               class="btn-close"
@@ -3051,12 +3134,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock5.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock DW-5600 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="981" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3090,7 +3173,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">DW-6900</h5>
+            <h3 class="modal-title">DW-6900</h3>
             <button
               type="button"
               class="btn-close"
@@ -3102,12 +3185,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock6.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock DW-6900 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1024" height="1024" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3141,7 +3224,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">MudMaster GG-1000</h5>
+            <h3 class="modal-title">MudMaster GG-1000</h3>
             <button
               type="button"
               class="btn-close"
@@ -3153,12 +3236,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock7.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock Mudmaster GG-1000 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1080" height="1101" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3192,7 +3275,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">GA-900</h5>
+            <h3 class="modal-title">GA-900</h3>
             <button
               type="button"
               class="btn-close"
@@ -3204,12 +3287,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock8.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock GA-900 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="2133" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3242,7 +3325,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">GA-smw</h5>
+            <h3 class="modal-title">GA-smw</h3>
             <button
               type="button"
               class="btn-close"
@@ -3254,12 +3337,12 @@
             <div class="modal-img-container">
               <img
                 src="product/g-shock9.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock GA-SMW wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="1104" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3295,7 +3378,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio G-Shock GA-2100</h5>
+            <h3 class="modal-title">Casio G-Shock GA-2100</h3>
             <button
               type="button"
               class="btn-close"
@@ -3307,12 +3390,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio1.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock GA-2100 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="1308" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3346,7 +3429,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio F-91W</h5>
+            <h3 class="modal-title">Casio F-91W</h3>
             <button
               type="button"
               class="btn-close"
@@ -3358,12 +3441,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio2.jpg"
-                alt="Rolex Submariner"
+                alt="Casio F-91W wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="735" height="892" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3397,7 +3480,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio A168</h5>
+            <h3 class="modal-title">Casio A168</h3>
             <button
               type="button"
               class="btn-close"
@@ -3409,12 +3492,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio3.jpg"
-                alt="Rolex Submariner"
+                alt="Casio A168 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1200" height="1600" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3448,7 +3531,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio AE-1200</h5>
+            <h3 class="modal-title">Casio AE-1200</h3>
             <button
               type="button"
               class="btn-close"
@@ -3460,12 +3543,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio4.jpg"
-                alt="Rolex Submariner"
+                alt="Casio AE-1200 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="981" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3499,7 +3582,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio Edifice EFV-100</h5>
+            <h3 class="modal-title">Casio Edifice EFV-100</h3>
             <button
               type="button"
               class="btn-close"
@@ -3511,12 +3594,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio5.jpg"
-                alt="Rolex Submariner"
+                alt="Casio Edifice EFV-100 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="959" height="1280" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3550,7 +3633,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio MTP-1302</h5>
+            <h3 class="modal-title">Casio MTP-1302</h3>
             <button
               type="button"
               class="btn-close"
@@ -3562,12 +3645,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio6.jpg"
-                alt="Rolex Submariner"
+                alt="Casio MTP-1302 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1179" height="1186" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3601,7 +3684,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio G-Shock DW-5600</h5>
+            <h3 class="modal-title">Casio G-Shock DW-5600</h3>
             <button
               type="button"
               class="btn-close"
@@ -3613,12 +3696,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio7.jpg"
-                alt="Rolex Submariner"
+                alt="Casio G-Shock DW-5600 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="1308" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3652,7 +3735,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio Vintage A158</h5>
+            <h3 class="modal-title">Casio Vintage A158</h3>
             <button
               type="button"
               class="btn-close"
@@ -3664,12 +3747,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio8.jpg"
-                alt="Rolex Submariner"
+                alt="Casio Vintage A158 wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="736" height="981" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3702,7 +3785,7 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Casio s-m-w</h5>
+            <h3 class="modal-title">Casio s-m-w</h3>
             <button
               type="button"
               class="btn-close"
@@ -3714,12 +3797,12 @@
             <div class="modal-img-container">
               <img
                 src="product/casio9.jpg"
-                alt="Rolex Submariner"
+                alt="Casio S-M-W wristwatch"
                 onerror="
                   this.src =
                     'https://placehold.co/300x250/eee/333?text=Rolex+Submariner'
                 "
-              />
+              width="1160" height="1240" loading="lazy" decoding="async">
             </div>
             <p class="text-muted">
               The pinnacle of luxury design and modern sophistication. A
@@ -3786,11 +3869,11 @@
         <div class="footer-column">
           <span class="footer-line"></span>
 
-          <h3>Terms and Conditions</h3>
+          <h2>Terms and Conditions</h2>
 
-          <a href="#">Free returns!</a>
-          <a href="#">30 days return policy!</a>
-          <a href="#">Quality watches!</a>
+          <a href="index.html#contat">Free returns!</a>
+          <a href="index.html#contat">30 days return policy!</a>
+          <a href="index.html#contat">Quality watches!</a>
 
           <div class="footer-follow">
             <strong>Follow Us On</strong>
@@ -3817,7 +3900,7 @@
         <div class="footer-column">
           <span class="footer-line"></span>
 
-          <h3>Quick Links</h3>
+          <h2>Quick Links</h2>
           <br />
           <a href="index.html">Home</a><br />
           <a href="index.html#gall">Gallery</a> <br />
@@ -3830,7 +3913,7 @@
         <div class="footer-column">
           <span class="footer-line"></span>
 
-          <h3>Contact</h3>
+          <h2>Contact</h2>
 
           <strong class="footer-purple"> Alberto Clocks </strong>
 
@@ -3853,7 +3936,7 @@
       <!-- FOOTER BOTTOM -->
       <div class="footer-bottom">
         <div class="footer-trust">
-          <img src="logo.png" alt="Alberto Clocks Logo" />
+          <img src="logo.png" alt="Alberto Clocks logo" width="612" height="408" loading="eager" decoding="async">
 
           <span>
             ALBERTO<br />
@@ -3867,13 +3950,13 @@
           <p>Quality, elegance and style in every second.</p>
 
           <div class="footer-flags">
-            <img src="https://flagcdn.com/w40/pk.png" alt="Pakistan" />
-            <img src="https://flagcdn.com/w40/se.png" alt="Sweden" />
-            <img src="https://flagcdn.com/w40/gb.png" alt="United Kingdom" />
-            <img src="https://flagcdn.com/w40/us.png" alt="USA" />
-            <img src="https://flagcdn.com/w40/fr.png" alt="France" />
-            <img src="https://flagcdn.com/w40/de.png" alt="Germany" />
-            <img src="https://flagcdn.com/w40/it.png" alt="Italy" />
+            <img src="https://flagcdn.com/w40/pk.png" alt="Pakistan" width="25" height="17" loading="lazy" decoding="async">
+            <img src="https://flagcdn.com/w40/se.png" alt="Sweden" width="25" height="17" loading="lazy" decoding="async">
+            <img src="https://flagcdn.com/w40/gb.png" alt="United Kingdom" width="25" height="17" loading="lazy" decoding="async">
+            <img src="https://flagcdn.com/w40/us.png" alt="USA" width="25" height="17" loading="lazy" decoding="async">
+            <img src="https://flagcdn.com/w40/fr.png" alt="France" width="25" height="17" loading="lazy" decoding="async">
+            <img src="https://flagcdn.com/w40/de.png" alt="Germany" width="25" height="17" loading="lazy" decoding="async">
+            <img src="https://flagcdn.com/w40/it.png" alt="Italy" width="25" height="17" loading="lazy" decoding="async">
           </div>
 
           <p class="footer-copyright">
@@ -3940,7 +4023,7 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">🛒 Your Shopping Bag</h5>
+                  <h3 class="modal-title">🛒 Your Shopping Bag</h3>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body text-center py-4">
@@ -3976,7 +4059,7 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">🛒 Alberto Clocks Shopping Bag (${cartCount})</h5>
+                  <h3 class="modal-title">🛒 Alberto Clocks Shopping Bag (${cartCount})</h3>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
@@ -4031,7 +4114,7 @@
       //       <div class="modal-dialog modal-dialog-centered">
       //         <div class="modal-content text-center">
       //           <div class="modal-header bg-success text-white">
-      //             <h5 class="modal-title w-100">🎉 Order Confirmed</h5>
+      //             <h2 class="modal-title w-100">🎉 Order Confirmed</h2>
       //           </div>
       //           <div class="modal-body py-4">
       //             <h4 class="text-dark mb-2" style="font-family: 'Playfair Display', serif;">Thank You</h4>
@@ -4073,7 +4156,7 @@
 
         var locationNode = document.getElementById("tickerLocation");
         function setLocation(text) {
-          locationNode.textContent = text;
+          if (locationNode) locationNode.textContent = text;
           document
             .querySelectorAll(".tickerLocationRepeat")
             .forEach(function (el) {
